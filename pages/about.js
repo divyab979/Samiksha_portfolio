@@ -1,15 +1,16 @@
-import HeroSection from '@/components/HeroSection'
 import Navbar from '@/components/Navbar'
+import About from '@/components/about'
 
-const index = () => {
+const about = () => {
   return (
     <main className='flex min-h-screen flex-col bg-[#121212]'>
       <Navbar/>
-      <div className="container mx-auto px-12 py-4">
+      {/* <div class="container mx-auto px-12 py-4">
         <HeroSection />
-      </div>
+      </div> */}
+      <About/>
     </main>
   )
 }
 
-export default index
+export default about
